@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+  <title>User stories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <h1 id="title">User Stories</h1>
+    <p id="description">Thank you for completing our survey!</p>
+  </div>
+  <form id="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
+    <fieldset>
+      <label id="name-label" for="name">Name (required): <input id="name" type="text" required placeholder="Anna"/></label>
+    </fieldset>
+    <fieldset>
+      <label id="email-label" for="email">Email (required): <input id="email" type="email" required placeholder="anna.green@gmail.com"/></label>
+    </fieldset>
+    <fieldset>
+      <label id="number-label" for="number">Age: <input id="number" type="number" min="10" max="130" placeholder="25"/></label>
+    </fieldset>
+    <fieldset>
+      <label>Which is your status? (required)</label>
+      <label for="student"><input id="student" type="radio" class="inline" name="status" value="student" checked/>Student</label>
+      <label for="employed"><input id="employed" type="radio" class="inline" name="status" value="employed"/>Employed</label>
+      <label for="unemployed"><input id="unemployed" type="radio" class="inline" name="status" value="unemployed"/>Unemployed</label>
+      <label for="other"><input id="other" type="radio" class="inline" name="status" value="other"/>Other</label>
+    </fieldset>
+    <fieldset>
+      <label>Which programming language(s) do you usually use:</label>
+      <label for="python"><input type="checkbox" class="inline" id="python" name="interest" value="python"/>Python</label>
+      <label for="R"><input type="checkbox" class="inline" id="R" name="interest" value="R"/>R</label>
+      <label for="javascript"><input type="checkbox" class="inline" id="javascript" name="interest" value="javascript"/>Javascript</label>
+      <label for="other_lan"><input type="checkbox" class="inline" id="other_lan" name="interest" value="other_lan"/>Other: <textarea class="inline"></textarea></label>
+    </fieldset>
+    <fieldset>
+      <label>Provide a bio:</label>
+      <label for="bio"><textarea id="bio" placeholder="My hobbies are..."></textarea>
+    </fieldset>
+    <fieldset>
+      <label for="dropdown">How did you hear about us?
+        <select id="dropdown" name="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">Social media</option>
+          <option value="2">Search engine</option>
+          <option value="3">Word of mouth</option>
+          <option value="4">Event</option>
+          <option value="5">Other</option>
+      </select></label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit"</input>
+  </form>
+</body>
+<footer>
+  <p class="footer">This is a survey form built by Pilar Tomas for the Responsive Web Design Certificate (<i>FreeCodeCamp</i>)<br><br>November 2024</p>
+</footer>
+</html>
