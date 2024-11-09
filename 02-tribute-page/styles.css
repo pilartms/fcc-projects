@@ -1,0 +1,121 @@
+h1, p {
+    text-align: center;
+    margin: 1em auto;
+    font-family: Montserrat;
+  }
+  
+  h1 {
+    margin-top: 5px;
+    padding-top: 50px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    max-width: 100%;
+  }
+  
+  p {
+    padding-bottom: 20px;
+    max-width: 100%;
+    font-size: 20px;
+  } 
+  
+  h2, h3 {
+    padding-top: 30px;
+    max-width: 100%;
+  }
+  
+  h2, ul > li {
+    margin-left: 10%;
+    padding-right: 10%;
+  }
+  
+  h3 {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: "DIN W01 Regular", Helvetica Neue, 
+    Helvetica, Arial, sans-serif;
+    background-color: rgba(125,120,118,1);
+    overflow-x: hidden;
+  }
+  
+  main {
+    margin-left: 5px;
+    max-width: 100%;
+    margin-right: 5px;
+    margin-top: 10px;
+    background-color: rgba(210, 205, 190, 1);
+    border-radius: 3px;
+  }
+  
+  div {
+    background-color: rgba(9,8,10,1);
+    max-width: 100%;
+    padding-bottom: 4px;
+    padding-top: 0.4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 3px solid;
+    border-color: rgba(125,120,118,1);
+  }
+  
+  #image, #img-caption {
+    width: 100%;
+    max-width: 100%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    color:rgba(125,120,118,1);
+  }
+  
+  #image {
+    min-height: 300px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    height: auto;
+  }
+  
+  #img-caption {
+    padding-top: 7px;
+    text-align: right;
+    font-size: 11pt;
+    max-width: 100%;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  ul > li {
+    padding-top: 10px;
+    max-width: 100%;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+  }
+
+  .footer {
+    width: 70vw;
+    max-width: 100%;
+    min-width: 40%px;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 3px double;
+    font-style: italic;
+    text-align: center;
+  }
+  
