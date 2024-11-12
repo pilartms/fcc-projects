@@ -1,0 +1,265 @@
+:root {
+    --orange: #ff8002;
+    --green: #00e055;
+    --blue: #40bcf4;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2a3037;
+    color: #f5f6f7;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #header-img {
+    width: max(3rem, 6vw);
+    top: 0;
+    left: 0;
+    aspect-ratio: 1 / 1;
+    margin-right: min(10px);
+    margin-top: max(5px);
+    margin-bottom: max(5px);
+    margin-left: min(10px);
+    }
+  
+  * {
+    box-sizing: inherit;
+  }
+  
+  header {
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    margin-right: 0.5rem;
+  }
+  
+  nav > ul > li {
+    margin: 0 0.2rem;
+    display: block;
+    padding: 2px;
+  }
+  
+  nav > ul > li:hover {
+    color: #1b1b32;
+    cursor: pointer;
+    padding: 2px;
+  }
+  
+  .link-1:hover {
+    background-color: var(--orange);
+  }
+  
+  .link-2:hover {
+    background-color: var(--green);
+  }
+  
+  .link-3:hover {
+    background-color: var(--blue);
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  main {
+    padding-bottom: 60px;
+  }
+  
+  .main-section {
+    padding-top: 40px;
+    scroll-margin-top: 40px;
+  }
+  
+  .group-intro {
+    padding-top: 90px;
+  }
+  
+  .video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 1.5rem auto;
+  }
+  
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #Features > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  
+  #Subscriptions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 60px 10px;
+  }
+  
+  .account {
+    flex: 1 1 30%;
+    max-width: 30%;
+    min-width: 280px;
+    padding: 20px;
+    background-color: #3a3f47;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  
+  .free {
+    background-color: var(--orange);
+    border-radius: 3px;
+    padding: 0.2rem;
+    color: black;
+  }
+  
+  .pro {
+    background-color: var(--green);
+    border-radius: 3px;
+    padding: 0.2rem;
+    color: black;
+  }
+  
+  .patron {
+    background-color: var(--blue);
+    border-radius: 3px;
+    padding: 0.2rem;
+    color: black;
+  }
+  
+  button {
+    margin: 0;
+    padding: 0;
+    border: 10px solid black;
+  }
+  
+  fieldset {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    
+      * {
+        scroll-behavior: smooth;
+      }
+    }
+  
+  @media (max-width: 550px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 210px;
+      padding-top: 10px;
+    }
+  
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: none;
+      height: auto;
+      margin-top: 1rem;
+      background-color: #3a3f47;
+      border-bottom: 5px solid #1b1b32;
+      border-top: 5px solid #1b1b32;
+    }
+  
+    nav > ul {
+      flex-direction: column;
+      align-items: center;
+        }
+  
+    nav > ul > li {
+      margin: 0.5rem 0;
+    }
+  
+    .main-section {
+    padding-top: 50px;
+    scroll-margin-top: 220px;
+    }
+  
+    .group-intro {
+    padding-top: 270px;
+    }
+  
+  }
