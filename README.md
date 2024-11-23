@@ -10,3 +10,4 @@ Assignments for the freeCodeCamp certifications
 | Building a tribute page | - Basic HTML<br>- CSS Flexbox<br>- Typography<br>- Accessibility | [Tribute page](https://github.com/pilartms/fcc-projects/tree/c97bf3cfb9cb5d816e5760df4fe8b5f00365bd58/02-tribute-page) |
 | Building a documentation page | - Intermediate CSS<br>- Responsive Web Design | [Documentation page](https://github.com/pilartms/fcc-projects/tree/4b6f8ffabebc8b910dc03e6cef869e5216d4b747/03-doc-page) |
 | Building a product landing page | - CSS Variables<br>- CSS Grid | [Product landing page](https://github.com/pilartms/fcc-projects/tree/ded70334dc69c75ec6e6a71e37e05e233fdb3be9/04-product-page) |
+| Building a portfolio page | - Advanced CSS | [Portfolio page](https://github.com/pilartms/fcc-projects/tree/bc90e905d2669565b85da9d37a3400b249f9a329/05-portfolio-page) |
