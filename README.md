@@ -13,3 +13,9 @@ Assignments for the freeCodeCamp certifications
 | Building a portfolio page | - Advanced CSS | [Portfolio page](https://github.com/pilartms/fcc-projects/tree/bc90e905d2669565b85da9d37a3400b249f9a329/05-portfolio-page) |
 
 🎓 Responsive Web Design Developer Certification [completed](https://www.freecodecamp.org/certification/fcc3baf8535-1a6f-4a13-92de-12d524080ec8/responsive-web-design) on Nov 23, 2024
+
+## JavaScript Algorithms and Data Structures
+
+| Project 🛠️ | Applied knowledge 💡 | Link 🔗 |
+|------------|------------|------------|
+| Building a palindrome checker | - Basic JavaScript<br>- Data Validation<br>- DOM Manipulation | [Palindrome checker]() |
