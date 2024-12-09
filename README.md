@@ -19,3 +19,4 @@ Assignments for the freeCodeCamp certifications
 | Project 🛠️ | Applied knowledge 💡 | Link 🔗 |
 |------------|------------|------------|
 | Building a palindrome checker | - Basic JavaScript<br>- Data Validation<br>- DOM Manipulation | [Palindrome checker](https://github.com/pilartms/fcc-projects/tree/4570b8d65cb942d412d4d338227517aa170ffda5/javascript-algorithms/01-palindrome-checker) |
+| Building a Roman numeral converter | - Date Object<br>- Modern Js methods<br>- localStorage<br>- Recursion | [Roman numeral converter]() |
