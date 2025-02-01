@@ -4,15 +4,13 @@ const convertBtn = document.getElementById("convert-btn");
 
 const output = document.getElementById("output");
 
-const animationContainer = document.getElementById("animation-container");
-
 const checkUserInput = () => {
   const inputInt = parseInt(number.value);
 
   if (!inputInt) {
     output.textContent = "Please enter a valid number";
     return false;
-    } else if (inputInt < 0) {
+    } else if (inputInt < 1) {
 output.textContent = "Please enter a number greater than or equal to 1";
 return false;
 } else if (inputInt >= 4000) {
