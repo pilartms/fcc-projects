@@ -20,3 +20,4 @@ Assignments for the freeCodeCamp certifications
 |------------|------------|------------|
 | Building a palindrome checker | - Basic JavaScript<br>- Data Validation<br>- DOM Manipulation | [Palindrome checker](https://github.com/pilartms/fcc-projects/tree/4570b8d65cb942d412d4d338227517aa170ffda5/javascript-algorithms/01-palindrome-checker) |
 | Building a Roman numeral converter | - Date Object<br>- Modern Js methods<br>- localStorage<br>- Recursion | [Roman numeral converter](https://github.com/pilartms/fcc-projects/tree/a7996f7f2c014eb701837902b902a9dd5ee89334/javascript-algorithms/02-roman-numeral-converter) |
+| Building a Telephone Number Validator Project | - Regular expressions<br>- Basic algorithmic thinking<br>- Advanced array methods<br>- Functional programming | [Telephone number validator]() |
